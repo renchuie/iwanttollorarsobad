@@ -1,0 +1,82 @@
+* {
+	font-family: "D2CodingLigature Nerd Font Propo";
+	font-weight: bold;
+	font-size: 10px;
+}
+
+window#waybar {
+	border-radius: 0 0 10px 10px;
+}
+
+#custom-power {
+	color: #eb89b5;
+	background-color: #ffd7e9;
+	border-radius: 50px;
+	padding: 0 10px;
+	margin: 4px 2px;
+	margin-left: 4px;
+	font-size: 10px;
+}
+
+#battery {
+	background-color: #ffd7e9;
+	border-radius: 50px;
+	padding: 0 10px;
+	margin: 4px 2px;
+	margin-right: 4px;
+}
+
+#custom-playerctl {
+	color: black;
+	
+}
+
+#clock {
+	color: white;
+	background-color: #eb89b5;
+	border-radius: 50px;
+	padding: 0 10px;
+	margin: 4px 2px;
+	font-family: "D2CodingLigature Nerd Font";
+}
+
+#custom-hello {
+	color: #eb89b5;
+	background-color: #ffd7e9;
+	border-radius: 50px;
+	padding: 0 10px;
+	margin: 4px 2px;
+	font-family: "D2CodingLigature Nerd Font";
+}
+
+#workspaces {
+	background: #ffd7e9;
+	border-radius: 40px;
+	margin: 4px 4px;
+}
+
+#workspaces button {
+	padding: 0px 4px;
+	margin: 0px 0px;
+	border-radius: 40px;
+	transition: all 0.2s cubic-bezier(.55,-0.68,.48,1.682);
+	animation: gradient_f 20s ease-in infinite;
+}
+
+#workspaces button.active {
+	transition: all 0.2s cubic-bezier(.55,-0.68,.48,1.682);
+	color: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: #eb89b5;
+	animation: gradient_f 20s ease-in infinite;
+}
+
+#workspaces button:hover {
+	border-radius: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #eb89b5;
+	transition: all 0.2s cubic-bezier(.55,-.68,.48,1.682);
+	animation: gradient_f 20s ease-in infinite;
+}

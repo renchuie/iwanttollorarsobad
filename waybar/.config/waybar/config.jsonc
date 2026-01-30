@@ -1,0 +1,15 @@
+{
+	"include": [ 
+		"$HOME/.config/waybar/modules.jsonc", "$HOME/.config/waybar/custom.jsonc"
+	],
+	"layer": "bottom",
+	"position": "top",
+	"height": 25,
+	"spacing": 0,
+	"fixed-center": true,
+	"margin-left": 155,
+	"margin-right": 155,
+	"modules-left": ["custom/power", "hyprland/workspaces"],
+	"modules-center": ["custom/playerctl"],
+	"modules-right": ["custom/hello", "clock", "battery"]
+}

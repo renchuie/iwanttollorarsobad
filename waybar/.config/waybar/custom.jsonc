@@ -1,0 +1,18 @@
+{
+	"custom/power":{
+		"format": "⏻"
+	},
+	
+	"custom/hello":{
+		"format": "rodri  "
+	},
+
+	"custom/playerctl":{
+		"format": "  {}",
+		"exec": "playerctl -a metadata --format  '{\"text\": \"{{artist}} - {{title}}\"}'",
+		"return-type": "json",
+		"escape": true,
+		"interval": 1,
+		"max-length": 60
+	}
+}

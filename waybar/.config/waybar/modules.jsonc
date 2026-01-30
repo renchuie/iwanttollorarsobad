@@ -1,0 +1,38 @@
+{
+	"hyprland/workspaces":{
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"1": "A",
+			"2": "B",
+			"3": "C",
+			"4": "D",
+			"5": "E"
+		},
+		"persistent-workspaces":{
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		}
+	},
+
+	"clock": {
+		"interval": 60,
+		"format": "{:%I:%M %p}",
+		"max-length": 30
+	},
+
+	"battery":{
+		"bat": "BAT0",
+		"interval": 60,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-icons": ["", "", "", "", "", ""],
+		"max-length": 25
+	},
+}
